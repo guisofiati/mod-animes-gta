@@ -1,0 +1,30 @@
+
+ Mod Animes v1 (+1800 animes!!!)
+
+------- Instalação: -------
+
+ Extraia a pasta "animes v1" para dentro do seu modloader, ou
+ jogue a pasta "cleo" para a raiz do seu jogo.
+
+------- Informações: -------
+
+ No arquivo "animes.ini" você pode configurar as seguintes propriedades:
+ - Tempo em que o anime será executado (secs). Obs: Para quem digita um pouco
+ mais lento recomendo deixar em 1200 ou mais;
+ - Se deseja que o anime se repita infinitamente, em (loop) deixe o valor 1, senão 0.
+
+ As outras propriedades recomendo fortemente a deixar como esta.
+
+------- Usando os animes: -------
+
+ Para usar o mod simplesmente digite "z1" até "z1872" e os animes serão executados.
+ Se quiser cancelar a execução de algum anime segure a tecla "K".
+
+ Ainda não há uma documentação do que cada anime faz, mas você pode encontrar
+ uma breve descrição de cada uma aqui: https://www.open.mp/docs/scripting/resources/animations
+
+---------------------------
+
+ Autor: Guilherme Sofiati Fantin
+ Github: https://github.com/guisofiati
+ 
