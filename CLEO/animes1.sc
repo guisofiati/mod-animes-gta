@@ -2,9 +2,8 @@
 
 SCRIPT_START
 {
-    LVAR_INT scplayer secs
     LVAR_FLOAT framedelta
-    LVAR_INT loop lockX lockY lockF time
+    LVAR_INT scplayer loop lockX lockY lockF time secs stop
 
     IF NOT READ_FLOAT_FROM_INI_FILE "CLEO\animes.ini" "Anim Props" "framedelta" framedelta
         framedelta = 4.0
@@ -34,13 +33,17 @@ SCRIPT_START
         secs = 1000
     ENDIF
 
+    IF NOT READ_INT_FROM_INI_FILE "CLEO\animes.ini" "Anim Props" "stop" stop
+        stop = 75
+    ENDIF
+
     GET_PLAYER_CHAR 0 scplayer
 
     WHILE TRUE
         WAIT secs
 
-        IF IS_KEY_PRESSED VK_KEY_K
-            WHILE IS_KEY_PRESSED VK_KEY_K
+        IF IS_KEY_PRESSED stop
+            WHILE IS_KEY_PRESSED stop
                 WAIT 0
                 CLEAR_CHAR_TASKS_IMMEDIATELY scplayer
             ENDWHILE

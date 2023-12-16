@@ -3,7 +3,7 @@
 
 ------- Instalação: -------
 
- Extraia a pasta "animes v1" para dentro do seu modloader, ou
+ Extraia a pasta "mod-animes-gta" para dentro do seu modloader, ou
  jogue a pasta "cleo" para a raiz do seu jogo.
 
 ------- Informações: -------
@@ -12,6 +12,9 @@
  - Tempo em que o anime será executado (secs). Obs: Para quem digita um pouco
  mais lento recomendo deixar em 1200 ou mais;
  - Se deseja que o anime se repita infinitamente, em (loop) deixe o valor 1, senão 0.
+ - Você pode configurar a tecla que deseja interrompear a animação (stop), para saber
+ a tecla correspondente entre neste link: https://www.mixmods.com.br/virtual-keys/ e 
+ altere com a de sua escolha.
 
  As outras propriedades recomendo fortemente a deixar como esta.
 
