@@ -1,30 +1,46 @@
 
  Mod Animes v1 (+1800 animes!!!)
 
+
 ------- Instalação: -------
 
- Extraia a pasta "mod-animes-gta" para dentro do seu modloader, ou
- jogue a pasta "cleo" para a raiz do seu jogo.
+ Há várias formas de instalar:
+
+ 1) Extraia a pasta "animes" para dentro do seu modloader (melhor forma)
+ 2) Extraia a pasta "animes" e jogue os arquivos de dentro da pasta CLEO para a CLEO do seu GTA.
+ 3) Extraia a pasta "animes" e mova a pasta CLEO para a raiz do seu GTA.
 
 ------- Informações: -------
 
  No arquivo "animes.ini" você pode configurar as seguintes propriedades:
- - Tempo em que o anime será executado (secs). Obs: Para quem digita um pouco
- mais lento recomendo deixar em 1200 ou mais;
- - Se deseja que o anime se repita infinitamente, em (loop) deixe o valor 1, senão 0.
- - Você pode configurar a tecla que deseja interrompear a animação (stop), para saber
- a tecla correspondente entre neste link: https://www.mixmods.com.br/virtual-keys/ e 
- altere com a de sua escolha.
 
- As outras propriedades recomendo fortemente a deixar como esta.
+Nome da propriedade dentro do arquivo animes.ini: secs
+Função dessa propriedade: Tempo em que o anime será executado. Para não entrar em conflito com outro anime, deixe 
+o valor maior que 1000. Obs: Quem digita mais lento deixar mais de 1300. 
+Exemplo: secs=1200
+
+Nome da propriedade dentro do arquivo animes.ini: loop
+Função dessa propriedade: Faz com que o anime seja executado infinitamente (em loop) ou uma única vez. Se deseja 
+deixa em loop deixe 1, se deseja uma unica vez deixe 0.
+Exemplo: loop=0
+
+Nome da propriedade dentro do arquivo animes.ini: stop
+Função dessa propriedade: Interromper a animação (principalmente quando estiver com a propriedade loop no valor 1).
+A tecla correspondente ao teclado você encontra neste link: https://www.mixmods.com.br/virtual-keys/
+Exemplo: stop=66 (corresponde a tecla 'B' do teclado).
+
+As outras propriedades recomendo fortemente a não mexer.
 
 ------- Usando os animes: -------
 
- Para usar o mod simplesmente digite "z1" até "z1872" e os animes serão executados.
- Se quiser cancelar a execução de algum anime segure a tecla "K".
+ Para usar o mod simplesmente digite 'z1' até 'z1872' e os animes serão executados. Obs: digite rápido, se demorar ele pode
+ executar outro anime. ex: se você demorar para digitar Z1245 ele pode entender que você digitou Z1, Z12, ou Z124, então
+ se você não conseguir digitar mais rápido mude a propriedade 'secs' no animes.ini).
 
- Ainda não há uma documentação do que cada anime faz, mas você pode encontrar
- uma breve descrição de cada uma aqui: https://www.open.mp/docs/scripting/resources/animations
+ Se quiser cancelar a execução de algum anime segure a tecla que você definiu na propriedade 'stop' do animes.ini
+ (por padrão, a tecla definida é o 'B').
+
+ Ainda não há uma documentação do que cada anime faz, mas você pode encontrar uma breve descrição de cada uma aqui: https://www.open.mp/docs/scripting/resources/animations
 
 ---------------------------
 
